@@ -4,7 +4,7 @@ const ShowCount = ({ className, clicks }) => {
 
     return (
         <div className={className}>
-          <p>You clicked here { clicks ? clicks : 0 } times</p>
+          <p>You clicked here { clicks ? clicks : 0 } { clicks === 1 ? 'time' : 'times' }</p>
         </div>
       )
 };
