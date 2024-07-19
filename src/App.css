@@ -1,0 +1,13 @@
+.root {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 1.25rem;
+}

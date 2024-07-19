@@ -1,0 +1,7 @@
+.sum-button {
+  background-color: #d34545;
+}
+
+.sum-button:hover {
+  border-color: #ff6666;
+}
